@@ -5,7 +5,7 @@
 $Sentence = "Hello, this is my script running from the web!"
 
 # Write the sentence to the host/console
-Write-Host $Sentence >> test.txt
+Write-Host $Sentence > ./test.txt
 
 
 

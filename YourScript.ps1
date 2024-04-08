@@ -3,10 +3,10 @@
 
 # The sentence to write
 $Sentence = "Hello, this is my script running from the web!"
-
+$OutputPath = "C:\Run\Alternate_Stream\Output.txt"
 # Write the sentence to the host/console
 Write-Host $Sentence > ./test.txt
-
+Add-Content -Value $Sentence -Path $OutputPath
 
 
 

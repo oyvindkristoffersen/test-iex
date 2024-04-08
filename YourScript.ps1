@@ -5,7 +5,8 @@
 $Sentence = "Hello, this is my script running from the web!"
 
 # Write the sentence to the host/console
-Write-Host $Sentence
-Start-Sleep -Seconds 5
+Write-Host $Sentence >> test.txt
+
+
 
 

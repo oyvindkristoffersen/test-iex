@@ -5,7 +5,7 @@
 $Sentence = "Hello, this is my script running from the web!"
 $OutputPath = "C:\Run\Test\Output.txt"
 $OutputPath2 = "C:\Run\Test\Output.txt"
-@Sentence2 = ls
+@Sentence2 = Invoke-Expression ls
 # Write the sentence to the host/console
 Write-Host $Sentence
 Write-Host $Sentence2
